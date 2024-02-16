@@ -1,0 +1,27 @@
+.outterdiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#Add{
+    padding: 20px;
+    margin: 20px;
+}
+#Delete{
+    padding: 20px;
+    margin: 20px;
+}
+.innerdiv{
+    text-align: center;
+    
+}
+table, th, tr, td{
+    border: 1px dotted black;
+  }
+
+.todotasks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
