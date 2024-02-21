@@ -1,4 +1,22 @@
 document.getElementById('Add').addEventListener('click',()=>{
+    if (document.getElementById('delete_input')){
+        if (document.getElementById('input')){
+            document.querySelector('#input').remove();
+            document.querySelector('#linebreak').remove();
+            document.querySelector('#submit').remove();
+        }
+        document.querySelector('#delete_input').remove();
+        document.querySelector('#delete_submit').remove();
+    }
+    else if (document.getElementById('input')){
+        if (document.getElementById('delete_input')){
+            document.querySelector('#delete_input').remove();
+            document.querySelector('#delete_submit').remove();
+        }
+        document.querySelector('#input').remove();
+        document.querySelector('#linebreak').remove();
+        document.querySelector('#submit').remove();
+    }
     const input= document.createElement('input');
     input.setAttribute('id','input');
     input.style='height:30px; width:1000px; padding:10px'
@@ -32,6 +50,24 @@ document.getElementById('Add').addEventListener('click',()=>{
 });
 
 document.getElementById('Delete').addEventListener('click',()=>{
+    if (document.getElementById('delete_input')){
+        if (document.getElementById('input')){
+            document.querySelector('#input').remove();
+            document.querySelector('#linebreak').remove();
+            document.querySelector('#submit').remove();
+        }
+        document.querySelector('#delete_input').remove();
+        document.querySelector('#delete_submit').remove();
+    }
+    else if (document.getElementById('input')){
+        if (document.getElementById('delete_input')){
+            document.querySelector('#delete_input').remove();
+            document.querySelector('#delete_submit').remove();
+        }
+        document.querySelector('#input').remove();
+        document.querySelector('#linebreak').remove();
+        document.querySelector('#submit').remove();
+    }
     const input= document.createElement('input');
     input.setAttribute('id','input');
     input.style='height:30px; width:500px; padding:10px'
