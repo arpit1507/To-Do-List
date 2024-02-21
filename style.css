@@ -25,3 +25,7 @@ table, th, tr, td{
     align-items: center;
     justify-content: center;
 }
+
+#Add,Delete{
+    border-radius: 10px;
+}
